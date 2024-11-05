@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação de Filmes e Séries</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="direito">
+            <h1>Qual é o filme ou série?</h1>
+
+            <div id="timer" style="font-size: 1.2em; font-weight: bold; color: red; margin-top: 10px;">Tempo restante:
+                15s</div>
+
+            <div id="question"></div>
+
+
+            <!-- Informações adicionais -->
+
+            <!-- Imagem do filme ou série -->
+            <img id="mediaImage" alt="Imagem do filme/série" style="display: none;">
+
+            <!-- Opções de resposta -->
+            <div id="options"></div>
+
+            <!-- Resultado da resposta -->
+
+
+
+            <!-- Botão para próxima rodada -->
+
+        </div>
+
+
+        <div id="esquerto">
+            <div id="result"></div><br><br>
+            <div id="mediaInfo" style="display: none;">
+                <p id="mediaSynopsis"></p>
+                <p id="mediaReleaseDate"></p>
+                <p id="mediaRating"></p><br>
+                <button id="nextButton" style="display:none;">Próximo</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+</body>
+<script src="js/sceipt.js"></script>
+
+</html>
